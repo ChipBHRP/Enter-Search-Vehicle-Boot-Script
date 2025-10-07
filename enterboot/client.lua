@@ -168,8 +168,9 @@ CreateThread(function()
     while true do
         Wait(0)
         if sittingInBoot then
-            DisableControlAction(0, 75, true)
+            DisableControlAction(0, 23, true)
             if IsControlJustPressed(0, 22) then ExitBoot(false) end
         end
     end
 end)
+
